@@ -1,0 +1,643 @@
+		/*General CSS*/
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		body{
+			background-color: black;
+		}
+		/*Section Menu*/
+		#menusec{
+			background-color: black;
+		}
+		.mainalign{
+			margin:auto;
+			width: 100%;
+			overflow:hidden;
+		}
+		#menu{
+			background-color: transparent;
+			color:white;
+		}
+		#menuHead{
+			width:10%;
+			float: left;
+			font-size: 30px;
+			padding:10px;
+			margin-left: 11%;
+			text-align: center;
+		}
+		#menuHead img{
+			width:65px;
+			height:40px;
+		}
+		#menulist{
+			width:70%;
+			float: right;
+			text-align: center;
+		}
+		#menulist ul{
+			list-style-type: none;
+		}
+		#menulist ul li{
+			display: inline-block;
+			padding:1px;
+			margin-top: 18px;
+			margin-left:50px;
+		}
+		#menulist a{
+			color:white !important;
+			text-decoration: none;
+		}
+		#menulist a:hover{
+			color:blue;
+		}
+		#menulist a:active{
+			color:red;
+		}
+		
+
+		/*Section AXIT*/
+		#AXITHeadSec{
+			clear:both;
+			background: url("bgr.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#AXITHead{
+			width: 82%;
+			height:560px;	
+			margin-left:4%;
+			margin-right:4%;
+			color:white;
+		}
+		#AXITHead div:first-child{
+			width:40%;
+			float:left;
+			margin-top: 8%;
+			margin-left: 13%;
+		}
+		#AXITHead div:first-child img{
+			width: 150px;
+			height:100px;
+			transform: translate(1px, 10px);
+		}
+		#AXITHead div:first-child p:last-child{
+			font-size: 12px;
+		}
+		#AXITHead div:first-child h1{
+			font-family: "News Gothic", Times, sans-serif;
+			margin-bottom:20px;
+		}
+		#AXITHead div:first-child hr{
+			width:10%;
+			margin-bottom:30px;
+		}
+		.transbtn{
+			width:100px;
+			background-color: transparent;
+			border:1px solid white;
+			border-radius: 2px;
+			color:white;
+			text-align: center;
+			font-weight: bold;
+			padding:15px 15px 15px 15px;
+			transition: width 2s;
+	
+		}
+		.transbtn:hover {
+    		width: 300px;
+		}
+
+		#AXITHead div:first-child input{
+			margin-top:30px;
+		}
+		#AXITHead div:last-child{
+			width:30%;
+			background-color: white;
+			float: right;
+			margin:100px 10px 50px 10px;
+			align-items: center;
+			transform: rotate(-20deg);
+		}
+		#AXITHead div:last-child p{
+			width:100%;
+			color: black;
+			background-color: lightgrey;
+			text-align: center;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#AXITHead div:last-child input[type=text]{
+			width: 90%;
+			margin:10px;
+			padding: 20px 10px 10px 10px;
+			border: none;
+			border-bottom: 1px solid gray;
+		}
+		.inputfocus{
+			outline:none;
+		}
+		#AXITHead div:last-child input[type=button]{
+			width:100%;
+			color: white;
+			background-color: orange;
+			margin-top: 30px;
+			padding: 20px 20px 20px 10px;
+		}
+		/*Social Section*/
+		#socialsec{
+			background-color: white;
+		}
+		#soicalicons{
+			clear:both;
+			background-color: transparent;
+		}
+		.minihead{
+			margin-bottom: 10px;
+		}
+		#soicalicons div:first-child{
+			float: left;
+			width:35%;
+			padding-left: 13%;
+			margin:10px;
+		}
+		#soicalicons div:last-child{
+			float: right;
+			width:50%;
+			margin:auto;
+		}
+		#soicalicons img{
+			width:520px;
+			height:80px;
+		}
+		/*Transition Section*/
+		#transSec{
+			clear:both;
+			background-color: lightgray;
+			border:1px solid lightgray;
+			margin:0px;
+		}
+		#transeffect{
+			height:350px;
+			background-color: transparent;
+			margin-top:7%;
+			margin-bottom:5%;
+			margin-left:12%;
+			margin-right:12%;
+		}
+		#transeffect div:first-child{
+			float: left;
+			width:20%;
+			background-color: transparent;
+		}
+		#transeffect ul{
+			list-style-type: none;
+			color: white;
+		}
+		#transeffect li{
+			width: 18px;
+		    padding: 42px 47px 38px 34px;
+		    border: 1px solid white;
+		    background-color: black;
+		    text-align: center;
+		}
+		#transeffect li:first-child{
+			background-color: orange;
+		}
+		#transeffect li:first-child:hover{
+			background-color: black;
+		}
+		#transeffect li:hover{
+			background-color: orange;
+		}
+		#tabcontent{
+			float: left;
+			width:40%;
+			background-color: transparent;
+		}
+		#tabcontent p{
+			color:gray;
+			text-align: justify;
+			margin-bottom: 30px;
+		}
+		.orabgebtn{
+			width:140px;
+			height:45px;
+			background-color: orange;
+			border-radius: 2px;
+			color:white;
+			text-align: center;
+			font-weight: bold;
+			box-shadow: 5px 5px orange;
+			opacity: 0.5;
+		}
+		#transeffect div:last-child{
+			float: left;
+			width:38%;
+			background-color: transparent;
+
+		}
+		#transeffect img{
+			width:	450px;
+			height: 300px;
+			transform: skew(20deg,-20deg);
+		}
+
+		/*Lefthills section*/
+		#leftimagetxt{
+			clear:both;
+			background-color: white;
+			border:1px solid white;
+		}
+		#lefthills{
+			background-color: transparent;
+			margin-top:7%;
+			margin-bottom:5%;
+			margin-left:12%;
+			margin-right:12%;
+			padding:10px 10px 350px 10px;
+		}
+		#lefthills div:first-child{
+			float: left;
+			width: 42%;
+			transform: rotate(-20deg);
+		}
+		#lefthills div:first-child img{
+			width: 455px;
+			height:315px;
+		}
+		#lefthills div:last-child{
+			float: left;
+			width: 45%;
+			padding-left: 10%;
+			transform: rotate(-20deg);
+		}
+		.horline{
+			border:1px solid orange;
+		}
+
+		#lefthills hr{
+			width:10%;
+			margin-bottom:20px;
+		}
+		#bulletdiv ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			list-style-position: unset;
+		}
+		#bulletdiv li.bulb {
+			background: url('bulb1.png') no-repeat left top;
+			height: 66px;
+			padding-left: 74px;
+			padding-top: 20px;					
+		}
+
+		#rightimagetxt{
+			clear:both;
+			background-color: lightgray;
+			border:1px solid lightgray;
+		}
+		#righthills{
+			background-color: transparent;
+			margin-top:7%;
+			margin-bottom:5%;
+			margin-left:12%;
+			margin-right:12%;
+			padding:10px 10px 300px 10px;
+		}
+		#righthills div:first-child{
+			float: left;
+			width: 40%;
+		}
+		#righthills hr{
+			width:10%;
+			margin-bottom:20px;
+		}
+		#righthills div:last-child{
+			float: left;
+			width: 40%;
+			padding-left: 10%;
+		}
+		#righthills div:last-child img{
+			width: 400px;
+			height:215px;
+			/*transition: width 2s, height 4s;*/
+			transition: all 2s ease;
+		}
+		#righthills div:last-child img:hover{
+			width: 500px;
+			height:315px;
+			
+			/*width: 500px;
+			height:315px;
+			transition: width 2s, height 4s;*/
+		}
+		#Awesometxt{
+			clear:both;
+			background-color: white;
+			border:1px solid white;
+		}
+		#Awesome{
+			background-color: transparent;
+			margin-top:5%;
+			margin-bottom:2%;
+			margin-left:12%;
+			margin-right:12%;
+			padding:10px 10px 340px 10px;
+		}
+
+		.mainhead{
+			font-size: 40px;
+			text-align: center;
+			margin-top: 40px;
+			text-shadow: 2px 2px;
+		}
+		.mainheadbcolor{
+			color: black;
+		}
+		.mainheadwcolor{
+			color: white;
+		}
+		#Awesome hr{
+			width:7%;
+			margin-top:20px;
+			margin-left: 510px;
+		}
+		.subhead{
+			font-size: 20px;
+			text-align: center;
+			color: white;
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		.subheadgcolor{
+			color: gray;
+		}
+		.subheadwcolor{
+			color: white;
+		}
+		#Awesome table{
+			text-align: center;
+			margin-left: 40px;
+			margin-right: 40px;
+			width:25%;
+			float:left;
+			transition: width 2s, height 2s, transform 2s;
+		}
+		#Awesome table td{
+			padding:15px;
+		}
+		#Awesome table:hover{
+			transform: rotate(360deg);
+		}
+
+		/*New Block*/
+		#Pricingtxt{
+			clear:both;
+			background-color: gray;
+			background: linear-gradient(-90deg,gray, lightgray);
+			border:1px solid black;
+		}
+		#Pricing{
+			background-color: transparent;
+			padding:10px 10px 450px 10px;
+		}
+		#Pricing hr{
+			width:5%;
+			margin-top:20px;
+			margin-left: 675px;
+		}
+		#basic{
+			clear: both;
+			float: left;
+			width: 300px;
+			margin-left:200px;
+			margin-bottom: 10px;
+			padding:7px;
+			background-color: white;
+		}
+		#Professional{
+			float: left;
+			width: 300px;
+			margin-left:30px;
+			margin-bottom: 10px;
+			padding: 7px;
+			background-color: white;
+		}
+		#Enterprise{
+			float: left;
+			width: 300px;
+			margin-left:30px;
+			margin-bottom: 10px;
+			padding: 7px;
+			background-color: white;
+		}
+		#Pricing ul{
+			list-style-type: none;
+		}
+		#Pricing li{
+			color: black;
+			padding:10px 10px 10px 10px;
+			text-align: center;
+		}
+		/*New Block*/
+		#Customertxt{
+			clear:both;
+			background-color: white;
+			border:1px solid black;
+		}
+		#Customer{
+			background-color: transparent;
+			/*border:1px solid red;*/
+			padding:10px 10px 300px 10px;
+		}
+		#Customer hr{
+			width:5%;
+			margin-top:20px;
+			margin-left: 675px;
+		}
+		.cust{
+			float: left;
+			width: 250px;
+			margin-left:170px;
+			margin-bottom: 10px;
+			padding: 7px;
+			background-color: lightgray;
+			animation-name: example;
+    		animation-duration: 10s;
+    		animation-direction: reverse;
+    		animation-iteration-count: infinite;
+		}
+		@keyframes example {
+		    0%   {background-color: red;}
+		    25%  {background-color: yellow;}
+		    50%  {background-color: blue;}
+		    100% {background-color: green;}
+		}
+		.custimg{
+			float: left;
+			width: 250px;
+			height:57px;
+			margin-left:170px;
+			padding: 7px;
+			background-color: white;
+		}
+		#Customer img{
+			float: left;
+			width:60px;
+			height:60px;
+		}
+		#Customer img+p{
+			float: left;
+			color:black;
+			padding: 15px;
+		}
+		/*New Block*/
+		#stylishtext{
+			clear:both;
+			background-image: url('ebag.png');
+			background-attachment: fixed;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+			border:1px solid black;
+		}
+		#stylish{
+			background-color: transparent;
+			padding:10px 10px 30px 10px;
+		}
+		#stylish hr{
+			width:5%;
+			margin-top:20px;
+			margin-left: 675px;
+		}
+		#stylish input{
+			margin-top:5px;
+			margin-left: 670px;
+		}
+		/*New Block*/
+		#Contacttxt{
+			background-color: white;
+			border:1px solid white;
+		}
+		#Contact{
+			background-color: transparent;
+			margin-top:5%;
+			margin-bottom:2%;
+			margin-left:12%;
+			margin-right:12%;
+		}
+		#Contact hr{
+			width:6%;
+			margin-top:20px;
+			margin-left: 515px;
+		}
+		#part1{
+			float:left;
+			width:50%;
+			margin-top: 5%;
+		}
+		#part1 input[type=text]{
+			width: 90%;
+			margin:16px;
+			border: none;
+			border-bottom: 1px solid gray;
+			padding:0px 0px 15px 5px;
+		}
+		#part2{
+			float:right;
+			width:40%;
+			padding:10px 10px 50px 10px;
+		}
+		#part2 input[type=textarea]{
+			width: 90%;
+			padding:80px 100px 100px 10px;
+			border: none;
+			border-bottom: 1px solid gray;
+		}   
+		#part3{
+			clear:both;
+			width:90%;
+		}
+		#part3 input[type=button]{
+			margin-top: 10px;
+			margin-left: 50%;
+		}
+		#copyrighttxt{
+			background-color: black;
+		}
+		#copyright{
+			background-color: transparent;
+			margin:10px;
+		}
+		#copyright img{
+			width:350px;
+			height:60px;
+			margin-left: 540px;
+			margin-right: 540px;
+		}
+		#copyright p{
+			color:white;
+			text-align: center;
+		}
+		@media only screen and (min-width: 500px) and (max-width: 1000px){
+			#leftimagetxt{
+				background-color: red;
+			}
+		}
+		@media only screen and (max-width: 500px){
+			#menulist ul li {
+				width: 100%;
+			}
+			#soicalicons div:last-child{
+				float: left;
+				width:70%;
+			}
+			#righthills div:last-child img{
+				width: 200px;
+				height:115px;
+			}
+			#basic{
+				margin-left:1px;
+			}
+			#Professional{
+				margin-left:10px;
+			}
+			#Enterprise{
+				margin-left:10px;
+			}
+			.cust{
+				margin-left:50px;
+			}
+			
+			.custimg{
+				margin-left:50px;
+			}
+			#Contact hr{
+				margin-left: 150px;
+			}
+			#part2{
+				float:left;
+				width:60%;
+				padding:0px 10px 50px 10px;
+			}
+			#part3 input[type=button]{
+				margin-left: 10%;
+			}
+			#copyright{
+				background-color: transparent;
+				margin:1px;
+			}
+			#copyright img{
+				width:150px;
+				height:60px;
+				margin-left: 140px;
+				margin-right: 140px;
+			}
+
+		}

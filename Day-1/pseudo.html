@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>PseduoClassesElements</title>
+	<style type="text/css">
+		/*a:hover {
+		    color: #ff0000;
+		}
+		div:hover {
+		    background-color: blue;
+		}*/
+		/*p {
+		    display: none;
+		    background-color: yellow;
+		    padding: 20px;
+		}
+
+		div:hover p {
+		    display: block;
+		}*/
+		p:first-child {
+    color: blue;
+} 
+q:lang(no) {
+    quotes: "~" "~";
+}
+
+
+div::after { 
+    content: " - Remember this";
+}
+
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+p::first-line {
+    font-size: 200%;
+    color: red;
+}
+::selection {
+    color: red; 
+    background: yellow;
+}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- <a href="">Home</a> -->
+		
+		<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p><b>Note:</b> For :first-child to work in IE8 and earlier, a DOCTYPE must be declared.</p>
+
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+<p><b>Note:</b> IE8 supports the :lang pseudo class only if a !DOCTYPE is specified.</p>
+
+	</div>
+
+	<input type="radio" checked="checked" value="male" name="gender"> Male<br>
+  <input type="radio" value="female" name="gender"> Female<br>
+  <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+  <input type="checkbox" value="Car"> I have a car
+</body>
+</html>

@@ -1,0 +1,206 @@
+#head1 input{
+			width:100px;
+			height:50px;
+			background-color: transparent;
+			border:1px solid white;
+			border-radius: 2px;
+			color:white;
+			text-align: center;
+			font-weight: bold;
+
+			margin-top:30px;
+		}
+
+		#stylish input{
+			width:100px;
+			height:50px;
+			background-color: transparent;
+			border:1px solid white;
+			border-radius: 2px;
+			color:white;
+			text-align: center;
+			font-weight: bold;
+
+			margin-top:5px;
+			margin-left: 670px;
+		}
+
+		#transeffect input{
+			width:100px;
+			height:50px;
+
+			background-color: orange;
+			border-radius: 2px;
+
+			color:white;
+
+			text-align: center;
+			font-weight: bold;
+		}
+
+		#part3 input[type=button]{
+			width:140px;
+			height:45px;
+
+			color: white;
+			background-color: orange;
+
+			margin-top: 10px;
+			margin-left: 50%;
+		}
+
+
+
+
+
+		#head2 input:focus{
+			outline: none;
+		}
+		#part1 input:focus{
+			outline: none;
+		}
+		#part2 input:focus{
+			outline: none;
+		}
+
+
+
+		.subhead{
+			font-size: 20px;
+			text-align: center;
+			color: white;
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		.subheadgcolor{
+			color: gray;
+		}
+		.subheadwcolor{
+			color: white;
+		}
+
+
+
+
+		#Awesome div:first-child P:last-child{
+			/*font-size: 20px;*/
+			color: gray;
+			/*text-align: center;*/
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		#Pricing div:first-child P:last-child{
+			/*font-size: 20px;*/
+			color: white;
+			/*text-align: center;*/
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+
+		#Customer div:first-child P:last-child{
+			/*font-size: 20px;*/
+			color: gray;
+			/*text-align: center;*/
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		#stylish div:first-child P:last-child{
+			/*font-size: 20px;*/
+			color: white;
+			/*text-align: center;*/
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		#Contact div:first-child P:last-child{
+			/*font-size: 20px;*/
+			color: gray;
+			/*text-align: center;*/
+			margin-top: 20px;
+		}
+
+
+		.mainhead{
+			font-size: 40px;
+			text-align: center;
+			margin-top: 40px;
+		}
+		.mainheadbcolor{
+			color: black;
+		}
+		.mainheadbcolor{
+			color: white;
+		}
+
+
+		#Awesome div:first-child P:first-child{
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+		}
+		#Pricing div:first-child P:first-child{
+			font-size: 40px;
+			text-align: center;
+			color: black;
+			margin-top: 40px;
+		}
+		#Customer div:first-child P:first-child{
+			font-size: 40px;
+			text-align: center;
+			color: black;
+			margin-top: 40px;
+		}
+		#stylish div:first-child P:first-child{
+			font-size: 40px;
+			text-align: center;
+			color: white;
+			margin-top: 40px;
+		}
+		#Contact div:first-child P:first-child{
+			font-size: 40px;
+			text-align: center;
+			color: black;
+			margin-top: 40px;
+		}
+
+
+
+
+
+
+		.minihead{
+			margin-bottom: 25px;
+
+		}
+		#tabcontent h2{
+			margin-bottom: 30px;
+		}
+		#lefthills h2{
+			margin-bottom: 25px;
+		}
+		#righthills h2{
+			margin-bottom: 25px;
+		}
+
+
+
+
+		#AXITHeadSec{
+			clear:both;
+			background: url("bgr.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#AXITHead{
+			width: 82%;
+			height:560px;	
+			margin-left:4%;
+			margin-right:4%;
+			color:white;
+		}
+
+
+
+
+
+
+		
